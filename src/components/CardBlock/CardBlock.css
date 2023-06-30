@@ -1,14 +1,14 @@
-.card_block{
-    display: flex;
-    align-items: center;
-    position: relative;
+.card_block {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
-.card_block .cart_icon{
-    cursor: pointer;
-    position: relative;
+.card_block .cart_icon {
+  cursor: pointer;
+  position: relative;
 }
-.card_block .price{
-    margin-left: 25px;
-    font-size: 18px;
-    font-weight: bold;
+.card_block .price {
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: bold;
 }
