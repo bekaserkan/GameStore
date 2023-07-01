@@ -1,0 +1,26 @@
+.game_page h1 {
+  margin-bottom: 20px;
+}
+.game_page p {
+  margin-top: 15px;
+}
+.game_page .text {
+  margin-bottom: 15px;
+}
+.game_page .content {
+  display: flex;
+}
+.game_page .left {
+  width: 70%;
+}
+.game_page .rigth {
+  width: 30%;
+}
+.game_page .buy_game {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.game_page .text {
+  color: rgb(80, 82, 84);
+}

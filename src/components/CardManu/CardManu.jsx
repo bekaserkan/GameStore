@@ -7,7 +7,7 @@ import CardItem from "../CardItem/CardItem";
 const CardManu = ({ items, onClick }) => {
   return (
     <div className="card_manu">
-      <div className="game_list">
+      <div className="game_list"> 
         {items.length > 0
           ? items.map((game) => (
               <CardItem

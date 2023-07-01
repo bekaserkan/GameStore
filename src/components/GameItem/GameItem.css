@@ -6,10 +6,6 @@
     cursor: pointer;
     position: relative;
 }
-.game_item:not(:last-child) {
-    margin-bottom: 30px;
-    margin-right: 50px;
-}
 .game_item .title {
     font-size: 18px;
     font-weight: bold;

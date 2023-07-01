@@ -4,7 +4,7 @@ import four from "../../game-covers/gta_v.jpeg";
 import five from "../../game-covers/life_is_strange_true_colors.jpeg";
 import six from "../../game-covers/rainbow_siege.jpeg";
 import one from "../../game-covers/assassins_creed_valhalla.png" 
-console.log(one);
+
 export const GAMES = [
   {
     image: three,
