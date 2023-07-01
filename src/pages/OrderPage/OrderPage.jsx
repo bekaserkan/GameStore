@@ -21,7 +21,8 @@ const OrderPage = () => {
       <div className="right">
         <div className="price">
           <span>
-            {items.length} товаров на сумму {calcTotalPrice(items)} руб.
+            {items.length === 1 ? " товар на сумму " : " товаров на сумму "}
+            {calcTotalPrice(items)} руб.
           </span>
         </div>
       </div>

@@ -25,10 +25,15 @@
 }
 .card_item .price {
   margin-left: auto;
+  display: flex;
+  align-items: center;
 }
-.card_item .title{
-    font-size: 20px;
-    font-weight: bold;
+.card_item .title {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .delete_icon {
   margin-left: 5px;

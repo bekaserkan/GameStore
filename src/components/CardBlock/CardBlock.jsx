@@ -29,7 +29,13 @@ const CardBlock = () => {
       {totalPrice > 0 ? (
         <span className="price"> {totalPrice} руб. </span>
       ) : null}
-      {isCartMenuVisible && <CardManu items={items} onClick={handleClick} />}
+      {isCartMenuVisible && (
+        <CardManu
+          items={items}
+          set={setIsCartMenuVisible}
+          onClick={handleClick}
+        />
+      )}
     </div>
   );
 };
